@@ -2,6 +2,7 @@ import React from 'react'
 import Picture from '../common/Picture'
 import AwesomeIcon from '../common/AwesomeIcon'
 import { chevronRightIcon } from '@/app/icons'
+import Link from 'next/link'
 
 const latestProjects = [
   {
@@ -44,20 +45,21 @@ const LatestProjects = () => {
           </h1>
           <div className="grid grid-cols-12 gap-4 md:gap-4 xl:gap-8 dynamic-grid-rows">
             {latestProjects.map((obj, i) => (
-              <div
+              <Link
+                href="/our-work"
                 key={i}
                 className={`${obj.div} relative cursor-pointer overflow-hidden group rounded-2xl`}
               >
                 <Picture
                   src={obj.src}
-                  alt=""
+                  alt="Story Construction"
                   className="w-full h-full aspect-video md:aspect-auto object-cover duration-300 group-hover:scale-150"
                   priority={false}
                 />
                 <div className="bg-white h-12 w-12 rounded-full flex items-center justify-center font-bold absolute -translate-x-16 bottom-7 group-hover:translate-x-8 duration-300">
                   <AwesomeIcon icon={chevronRightIcon} className="w-5 h-5 text-sky-500" />
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
         </div>
