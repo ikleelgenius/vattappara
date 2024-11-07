@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState, useRef } from 'react'
 
-const Counter = ({ targetNumber, duration = 2000 }: any) => {
+const Counter = ({ targetNumber, duration = 2000 }: { targetNumber: number; duration: number }) => {
   const [displayedNumber, setDisplayedNumber] = useState(0)
   const [inView, setInView] = useState(false)
   const ref = useRef(null)

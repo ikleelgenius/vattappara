@@ -32,7 +32,7 @@ const whoWeAre: CommitmentInEveryProjectProps[] = [
 ]
 
 const WhoWeAre = () => {
-  const { refs, visibleItems } = useAnimateOnScroll(whoWeAre)
+  const { refs, visibleItems } = useAnimateOnScroll()
   return (
     <div className="w-full py-20">
       <div className="px-3">
@@ -45,7 +45,7 @@ const WhoWeAre = () => {
             Transforming Spaces with Expertise
           </h1>
           <div className="grid grid-cols-12 gap-6">
-            {whoWeAre.map((obj: any, i: any) => (
+            {whoWeAre.map((obj, i) => (
               <Link
                 ref={(el) => {
                   if (el) refs.current[i] = el
