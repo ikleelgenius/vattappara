@@ -2,13 +2,13 @@ import React from 'react'
 import Picture from './Picture'
 import Link from 'next/link'
 
-const Logo = ({ width, src }: { width: string; src?: string }) => {
+const Logo = ({ className, src, onClick }: { className: string; src?: string; onClick?: any }) => {
   return (
-    <Link href="/">
+    <Link href="/" onClick={onClick}>
       <Picture
-        src={`${src ? src : '/images/logo.png'}`}
+        src={`${src ? src : '/images/logo-4.png'}`}
         alt="Story Construction"
-        className={`${width}`}
+        className={`${className}`}
         priority={true}
       />
     </Link>

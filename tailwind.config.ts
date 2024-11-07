@@ -15,7 +15,8 @@ const config: Config = {
       fontSize: {
         11: '0.6875rem',
         13: '0.8125rem',
-        15: '0.9375rem'
+        15: '0.9375rem',
+        17: '1.0625rem'
       },
       fontFamily: {
         M: [`"Montserrat", sans-serif`],

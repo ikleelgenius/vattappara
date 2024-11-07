@@ -1,4 +1,4 @@
-import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import {
   faBars,
   faBullhorn,
@@ -37,7 +37,31 @@ import {
   faHandshake,
   faCoffee,
   faGem,
-  faBriefcase
+  faBriefcase,
+  faHammer,
+  faSink,
+  faTree,
+  faCertificate,
+  faPeopleGroup,
+  faThumbsUp,
+  faTrowelBricks,
+  faPaintRoller,
+  faPeopleRoof,
+  faBolt,
+  faWrench,
+  faLightbulb,
+  faTools,
+  faClock,
+  faSmile,
+  faTasks,
+  faExpand,
+  faHardHat,
+  faDoorOpen,
+  faWater,
+  faPlug,
+  faToilet,
+  faComments,
+  faClipboardCheck
 } from '@fortawesome/free-solid-svg-icons'
 
 const calendarIcon = faCalendar
@@ -80,6 +104,32 @@ const handshakeIcon = faHandshake
 const coffeeIcon = faCoffee
 const fbIcon = faFacebook
 const briefCaseIcon = faBriefcase
+const hammerIcon = faHammer
+const sinkIcon = faSink
+const treeIcon = faTree
+const certificateIcon = faCertificate
+const peopleGroupIcon = faPeopleGroup
+const thumbsUpIcon = faThumbsUp
+
+const trowelBricksIcon = faTrowelBricks
+const paintRollerIcon = faPaintRoller
+const peopleRoofIcon = faPeopleRoof
+const boltIcon = faBolt
+const wrenchIcon = faWrench
+const lightBulbIcon = faLightbulb
+const toolsIcon = faTools
+const linkedInIcon = faLinkedin
+const clockIcon = faClock
+const smileIcon = faSmile
+const tasksIcon = faTasks
+const expandIcon = faExpand
+const hardHatIcon = faHardHat
+const doorOpenIcon = faDoorOpen
+const waterIcon = faWater
+const plugIcon = faPlug
+const toiletIcon = faToilet
+const commentsIcon = faComments
+const clipboardCheckIcon = faClipboardCheck
 
 export {
   calendarIcon,
@@ -121,5 +171,30 @@ export {
   handshakeIcon,
   coffeeIcon,
   fbIcon,
-  briefCaseIcon
+  briefCaseIcon,
+  hammerIcon,
+  sinkIcon,
+  treeIcon,
+  certificateIcon,
+  peopleGroupIcon,
+  thumbsUpIcon,
+  trowelBricksIcon,
+  paintRollerIcon,
+  peopleRoofIcon,
+  boltIcon,
+  wrenchIcon,
+  lightBulbIcon,
+  toolsIcon,
+  linkedInIcon,
+  clockIcon,
+  smileIcon,
+  tasksIcon,
+  expandIcon,
+  hardHatIcon,
+  doorOpenIcon,
+  waterIcon,
+  plugIcon,
+  toiletIcon,
+  commentsIcon,
+  clipboardCheckIcon
 }
