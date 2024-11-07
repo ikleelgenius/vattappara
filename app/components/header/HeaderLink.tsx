@@ -6,8 +6,8 @@ const HeaderLink: FC<HeaderLinkProps> = ({ linkKey, active, textKey }) => {
   return (
     <Link
       href={linkKey}
-      className={`text-sm font-medium relative duration-200
-      ${active ? 'text-white' : 'text-zinc-200 hover:text-white'}`}
+      className={`text-17 font-medium relative duration-200
+      ${active ? 'text-sky-400' : 'text-[#999] hover:text-sky-400'}`}
     >
       {textKey}
     </Link>
