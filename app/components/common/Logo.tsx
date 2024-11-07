@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { MouseEventHandler } from 'react'
 import Picture from './Picture'
 import Link from 'next/link'
 
-const Logo = ({ className, src, onClick }: { className: string; src?: string; onClick?: any }) => {
+const Logo = ({
+  className,
+  src,
+  onClick
+}: {
+  className: string
+  src?: string
+  onClick?: MouseEventHandler<HTMLAnchorElement>
+}) => {
   return (
     <Link href="/" onClick={onClick}>
       <Picture

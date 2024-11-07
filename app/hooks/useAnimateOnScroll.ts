@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react'
 
-const useAnimateOnScroll = (elements: any) => {
+const useAnimateOnScroll = () => {
   const [visibleItems, setVisibleItems] = useState<Set<number>>(new Set())
   const refs = useRef<Element[]>([])
 
@@ -31,7 +31,7 @@ const useAnimateOnScroll = (elements: any) => {
     return () => {
       observer.disconnect()
     }
-  }, [elements])
+  }, [])
 
   return { refs, visibleItems }
 }

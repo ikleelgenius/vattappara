@@ -22,7 +22,7 @@ const HomePageBanner = () => {
             <div className="slide-left text-white">
               <div className="py-4 flex flex-col">
                 <h4 className="uppercase text-2xl tracking-wide font-semibold mb-5">
-                  Let's work together
+                  Let&apos;s work together
                 </h4>
                 <h1 className="mb-2 text-5xl sm:text-7xl uppercase font-black sm:tracking-widest max-w-screen-lg w-full">
                   Building Legacies that Last
