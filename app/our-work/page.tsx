@@ -5,6 +5,7 @@ import Banner from '../components/common/Banner'
 import Picture from '../components/common/Picture'
 import AwesomeIcon from '../components/common/AwesomeIcon'
 import { expandIcon } from '../icons'
+import Head from 'next/head'
 
 const ourWork = [
   '/images/gallery-1.JPG',
@@ -44,6 +45,28 @@ const OurWork = () => {
   }
   return (
     <div>
+      <Head>
+        <title>Our Work | Story Construction</title>
+        <meta
+          name="description"
+          content="View our portfolio of completed residential and commercial construction projects."
+        />
+        <meta
+          name="keywords"
+          content="construction portfolio, completed projects, residential construction, commercial construction, construction gallery, Story Construction projects, construction work examples"
+        />
+        <meta property="og:title" content="Our Work | Story Construction" />
+        <meta
+          property="og:description"
+          content="Browse through the high-quality projects completed by Story Construction."
+        />
+        <meta
+          property="og:url"
+          content="https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77"
+        />
+        <meta property="og:image" content="" />
+      </Head>
+
       <Banner src="/images/working-with-us.jpg" breadcrumb="Our Work" title="Our Work" />
       <div className="my-32">
         <div className="px-3">
