@@ -17,7 +17,7 @@ const geistMono = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Story Construction - Building Your Dreams',
+  title: 'Story Construction',
   description:
     'Story Construction specializes in residential and commercial construction services, delivering quality workmanship and customer satisfaction. Your trusted partner in construction projects.',
   keywords: [
@@ -64,14 +64,14 @@ export const metadata: Metadata = {
     'common mistakes in home construction projects'
   ],
   openGraph: {
-    title: 'Story Construction - Building Your Dreams',
+    title: 'Story Construction',
     description:
       'Quality construction services for residential and commercial projects. Your local construction experts.',
-    url: 'https://yourwebsite.com/', // Replace with your actual URL
+    url: 'https://storyconstruction.vercel.app/',
     siteName: 'Story Construction',
     images: [
       {
-        url: 'https://yourwebsite.com/images/construction-banner.jpg', // Replace with your image URL
+        url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77', // Replace with your image URL
         width: 1200,
         height: 630,
         alt: 'Quality construction work by Story Construction'
