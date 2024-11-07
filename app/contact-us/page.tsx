@@ -5,6 +5,40 @@ import { envelopeIcon, locationDotIcon, phoneIcon } from '../icons'
 import AwesomeIcon from '../components/common/AwesomeIcon'
 import Link from 'next/link'
 
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Contact Us | Story Construction',
+  description:
+    'Get in touch with Story Construction for consultations, quotes, and project inquiries.',
+  keywords: [
+    'contact Story Construction',
+    'construction consultations',
+    'construction quotes',
+    'project inquiries',
+    'contact us',
+    'construction services inquiry',
+    'construction project quotes'
+  ],
+  openGraph: {
+    title: 'Contact Us | Story Construction',
+    description: 'Reach out to Story Construction for your next construction project.',
+    url: 'https://storyconstruction.vercel.app/contact-us',
+    images: [
+      {
+        url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77',
+        width: 1200,
+        height: 630,
+        alt: 'Contact Story Construction'
+      }
+    ]
+  },
+  robots: {
+    index: true,
+    follow: true
+  }
+}
+
 const contactUs = [
   {
     icon: locationDotIcon,
