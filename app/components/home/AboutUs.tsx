@@ -42,28 +42,28 @@ const AboutUs = () => {
           <Picture
             src="/images/abstract-5.png"
             alt=""
-            className="hidden sm:block absolute z-0 -top-20 left-[-250px] w-full max-w-5xl full object-cover aspect-square"
+            className="hidden xl:block absolute z-0 -top-20 left-[-250px] w-full max-w-5xl full object-cover aspect-square"
             priority={false}
           />
           <Picture
             src="/images/rotating-circle-2.png"
             alt=""
-            className="rotate absolute z-20 -bottom-12 sm:left-52 w-52 h-52 rounded-full object-cover"
+            className="rotate absolute z-20 -bottom-12 md:left-52 w-52 h-52 rounded-full object-cover"
             priority={false}
           />
           <Picture
             src="/images/logo-5.png"
             alt=""
-            className="absolute z-20 bottom-[15px] left-16 sm:left-[271px] w-20 h-20 rounded-full object-cover"
+            className="absolute z-20 bottom-[15px] left-16 md:left-[271px] w-20 h-20 rounded-full object-cover"
             priority={false}
           />
-          <div className="grid grid-cols-12 gap-y-8 sm:gap-x-16">
-            <div className="col-span-12 md:col-span-6 order-2 sm:order-1">
-              <div className="flex flex-col sm:flex-row items-center gap-y-5 sm:gap-10">
+          <div className="grid grid-cols-12 gap-y-8 md:gap-x-16">
+            <div className="col-span-12 xl:col-span-6 col-start-1 sm:col-start-2 lg:col-start-3 xl:col-start-1 order-2 xl:order-1">
+              <div className="flex flex-col sm:flex-row items-center gap-y-5 md:gap-10">
                 <Picture
                   src="/images/home-card-1.jpg"
                   alt=""
-                  className="w-full relative z-10 border-[6px] border-white h-96 max-w-72 object-cover rounded-tl-[69px] rounded-br-[69px]"
+                  className="w-full relative z-10 border-[6px] border-white h-72 sm:h-96 max-w-72 object-cover rounded-tl-[69px] rounded-br-[69px]"
                   priority={false}
                 />
                 <div className="flex flex-col gap-y-10 relative z-10">
@@ -82,15 +82,15 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-span-12 md:col-span-6 flex flex-col justify-center gap-y-10 order-1 sm:order-2 relative z-10">
-              <div className="flex justify-center sm:justify-start items-center gap-x-3">
-                <span className="hidden sm:block w-10 h-[2px] bg-sky-400"></span>
+            <div className="col-span-12 col-start-1  sm:col-span-9 xl:col-span-6 sm:col-start-3 xl:col-start-7 flex flex-col justify-center xl:items-start items-center gap-y-10 order-1 xl:order-2 relative z-10">
+              <div className="flex justify-center xl:justify-start items-center gap-x-3">
+                <span className="hidden xl:block w-10 h-[2px] bg-sky-400"></span>
                 <p className="text-sky-500 font-medium">About Us</p>
               </div>
-              <h1 className="text-5xl font-semibold text-center sm:text-left">
+              <h1 className="text-5xl font-semibold text-center xl:text-left">
                 Where Quality Meets Local Expertise
               </h1>
-              <p className="text-17 text-[#6a6a6a]">
+              <p className="text-17 text-[#6a6a6a] text-center xl:text-left">
                 Proudly serving Boston with skilled craftsmanship and a commitment to excellence.
                 Constructing reliable solutions for your unique needs.
               </p>
@@ -101,13 +101,13 @@ const AboutUs = () => {
                     <div className="w-8 h-8 rounded-full flex items-center justify-center border-2 border-sky-400">
                       <AwesomeIcon icon={checkIcon} className="w-3.5 h-3.5 text-sky-400" />
                     </div>
-                    <p className="sm:text-[20px] font-bold">{obj.title}</p>
+                    <p className="xl:text-[20px] font-bold">{obj.title}</p>
                   </div>
                 ))}
               </div>
               <Link
                 href="/who-we-are"
-                className="bg-sky-400 rounded-sm font-semibold text-white px-7 py-3 w-fit flex self-center"
+                className="bg-sky-400 rounded-sm font-semibold text-white px-7 py-3 w-fit flex self-center xl:self-start"
               >
                 More About Us
               </Link>

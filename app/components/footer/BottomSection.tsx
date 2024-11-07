@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 const BottomSection = () => {
   return (
@@ -14,11 +13,6 @@ const BottomSection = () => {
             Sqysh
           </span>
         </p>
-        <div className="flex items-center gap-3 sm:gap-6">
-          <Link href="/privacy-policy" className="text-[#999] duration-200 hover:text-sky-400">
-            Privacy Policy
-          </Link>
-        </div>
       </div>
     </div>
   )
