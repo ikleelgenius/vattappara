@@ -1,27 +1,14 @@
 import type { Metadata } from 'next'
-import localFont from 'next/font/local'
 import './globals.css'
 import './animations.css'
 import './fonts.css'
 import PageWrapper from './page-wrapper'
-import Head from 'next/head'
-
-const geistSans = localFont({
-  src: './fonts/GeistVF.woff',
-  variable: '--font-geist-sans',
-  weight: '100 900'
-})
-const geistMono = localFont({
-  src: './fonts/GeistMonoVF.woff',
-  variable: '--font-geist-mono',
-  weight: '100 900'
-})
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://storyconstruction.vercel.app'),
   title: 'Story Construction',
   description:
-    'Story Construction specializes in residential and commercial construction services, delivering quality workmanship and customer satisfaction. Your trusted partner in construction projects.',
+    'Story Construction offers quality craftsmanship and reliable project management. Building your vision with integrity and expertise.',
   keywords: [
     'Story Construction',
     'construction',
@@ -68,7 +55,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Story Construction',
     description:
-      'Quality construction services for residential and commercial projects. Your local construction experts.',
+      'Quality construction services from a team you can trust. Building lasting structures with precision and care.',
     url: 'https://storyconstruction.vercel.app/',
     siteName: 'Story Construction',
     images: [
@@ -76,15 +63,15 @@ export const metadata: Metadata = {
         url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77',
         width: 1200,
         height: 630,
-        alt: 'Quality construction work by Story Construction'
+        alt: 'Story Construction logo'
       }
     ],
     locale: 'en_US',
     type: 'website'
   },
   robots: {
-    index: true, // `true` to allow indexing, `false` to disallow
-    follow: true, // `true` to allow following links, `false` to disallow
+    index: true,
+    follow: true,
     'max-image-preview': 'large',
     'max-snippet': -1,
     'max-video-preview': -1,
@@ -98,6 +85,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: 'https://storyconstruction.vercel.app'
+  },
+  other: {
+    'apple-mobile-web-app-capable': 'yes', // Add this for legacy support
+    'mobile-web-app-capable': 'yes' // This will explicitly cover modern cases
   }
 }
 
@@ -113,37 +104,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'Organization',
-              name: 'Story Construction',
-              url: 'https://storyconstruction.vercel.app',
-              logo: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77',
-              description:
-                'Story Construction specializes in residential and commercial construction services...',
-              contactPoint: {
-                '@type': 'ContactPoint',
-                telephone: '+1-781-367-7809',
-                contactType: 'Customer Service',
-                areaServed: 'US',
-                availableLanguage: 'en'
-              },
-              address: {
-                '@type': 'PostalAddress',
-                addressLocality: 'Lynn',
-                addressRegion: 'MA',
-                postalCode: '01901',
-                addressCountry: 'US'
-              }
-            })
-          }}
-        />
-      </Head>
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`antialiased`}>
         <PageWrapper>{children}</PageWrapper>
       </body>
     </html>

@@ -5,7 +5,7 @@ import AwesomeIcon from './common/AwesomeIcon'
 import { chevronRightIcon, timesIcon } from '../icons'
 import { closeNavigationDrawer } from '../redux/features/headerSlice'
 import headerLinks from '../data/header-links'
-import useCustomPathname from './utils/useCustomPathname'
+import useCustomPathname from '../utils/useCustomPathname'
 import Link from 'next/link'
 
 const MobileNavigationDrawer = () => {
