@@ -1,6 +1,6 @@
 import headerLinks from '@/app/data/header-links'
 import React from 'react'
-import useCustomPathname from '../utils/useCustomPathname'
+import useCustomPathname from '../../utils/useCustomPathname'
 import AwesomeIcon from '../common/AwesomeIcon'
 import { clockIcon, mapMarkerIcon, phoneIcon } from '@/app/icons'
 import SocialMediaSection from './SocialMediaSection'

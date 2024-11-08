@@ -44,8 +44,8 @@ const WhoWeAre = () => {
   return (
     <div>
       <Banner src="/images/who-we-are.jpg" breadcrumb="Who We Are" title="Who We Are" />
-      <AboutUs />
       <OurWorkingProcess />
+      <AboutUs />
     </div>
   )
 }

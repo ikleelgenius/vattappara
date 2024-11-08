@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import useCustomPathname from '../utils/useCustomPathname'
+import useCustomPathname from '../../utils/useCustomPathname'
 import {
   barsIcon,
   envelopeIcon,

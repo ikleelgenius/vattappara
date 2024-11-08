@@ -5,35 +5,12 @@ import Banner from '../components/common/Banner'
 import { RootState, useAppSelector } from '../redux/store'
 import AwesomeIcon from '../components/common/AwesomeIcon'
 import highlightText from '../utils/hightlightText'
-import Head from 'next/head'
 
 const Services = () => {
   const { servicesData, keyword } = useAppSelector((state: RootState) => state.header)
 
   return (
     <>
-      <Head>
-        <title>Services | Story Construction</title>
-        <meta
-          name="description"
-          content="Explore the construction services offered by Story Construction, including residential, commercial, and custom building services."
-        />
-        <meta
-          name="keywords"
-          content="construction services, residential construction, commercial construction, custom building services, home renovations, remodeling, new construction, building contractors"
-        />
-        <meta property="og:title" content="Services | Story Construction" />
-        <meta
-          property="og:description"
-          content="Discover the professional construction services provided by Story Construction, specializing in residential, commercial, and custom projects."
-        />
-        <meta property="og:url" content="https://storyconstruction.vercel.app/services" />
-        <meta
-          property="og:image"
-          content="https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77"
-        />
-        <meta name="robots" content="index, follow" />
-      </Head>
       <Banner src="/images/services.jpg" breadcrumb="Services" title="Services" />
       <div className="px-3 md:px-28 xl:px-0 py-32">
         <div className="max-w-screen-xl mx-auto w-full">
