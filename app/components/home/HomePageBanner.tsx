@@ -21,11 +21,7 @@ const HomePageBanner = () => {
             priority={true}
           />
         )}
-        <Video
-          setLoading={setLoading}
-          videoRef={videoRef}
-          src="https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/videos%2Fbanner.mp4?alt=media&token=6dd3b49d-d0cb-4be8-abb6-d14b0a7a1538"
-        />
+        <Video setLoading={setLoading} videoRef={videoRef} src="/videos/banner.mp4" />
       </div>
       <div className="min-h-screen sm:min-h-fit sm:h-[950px] px-3 absolute top-0 left-1/2 -translate-x-1/2 flex-col w-full flex justify-center">
         <div className="max-w-screen-xl mx-auto w-full flex flex-col">
