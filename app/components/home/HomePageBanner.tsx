@@ -1,27 +1,17 @@
 'use client'
 
-import React, { useState } from 'react'
+import React from 'react'
 import useVideo from '@/app/hooks/useVideo'
 import Video from '../common/Video'
 import Link from 'next/link'
-import Picture from '../common/Picture'
 
 const HomePageBanner = () => {
   const { videoRef } = useVideo()
-  const [loading, setLoading] = useState(true)
 
   return (
     <div className="relative w-full min-h-screen sm:min-h-fit sm:h-[950px] -mt-20 sm:-mt-32">
-      <div className="absolute top-0 left-0 right-0 h-full">
-        {loading && (
-          <Picture
-            alt=""
-            src="/images/loading-home-01.png"
-            className="w-full h-full object-cover"
-            priority={true}
-          />
-        )}
-        <Video setLoading={setLoading} videoRef={videoRef} src="/videos/banner.mp4" />
+      <div className="absolute top-0 left-0 right-0 h-full bg-[#3e4b55]">
+        <Video videoRef={videoRef} src="/videos/banner.mp4" />
       </div>
       <div className="min-h-screen sm:min-h-fit sm:h-[950px] px-3 absolute top-0 left-1/2 -translate-x-1/2 flex-col w-full flex justify-center">
         <div className="max-w-screen-xl mx-auto w-full flex flex-col">

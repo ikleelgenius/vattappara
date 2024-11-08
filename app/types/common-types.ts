@@ -1,7 +1,6 @@
 import { ChangeEvent, Dispatch, LegacyRef, ReactNode, SetStateAction } from 'react'
 
 interface VideoProps {
-  setLoading: (loading: boolean) => void
   videoRef: LegacyRef<HTMLVideoElement>
   src: string
 }
