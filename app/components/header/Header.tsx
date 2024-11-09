@@ -52,10 +52,10 @@ const Header = () => {
                 <div className="flex items-center gap-2">
                   <AwesomeIcon icon={envelopeIcon} className="w-3 h-3" />
                   <a
-                    href="mailto:grant.story.builds@gmail.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+                    href="mailto:grant.story.build@gmail.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services."
                     className="font-medium"
                   >
-                    grant.story.builds@gmail.com
+                    grant.story.build@gmail.com
                   </a>
                 </div>
               </div>

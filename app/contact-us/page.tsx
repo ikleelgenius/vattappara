@@ -49,8 +49,8 @@ const contactUs = [
   {
     icon: envelopeIcon,
     title: 'Email Address',
-    text: 'grant.story.builds@gmail.com',
-    url: 'mailto:grant.story.builds@gmail.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.'
+    text: 'grant.story.build@gmail.com',
+    url: 'mailto:grant.story.build@gmail.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.'
   },
   {
     icon: phoneIcon,
