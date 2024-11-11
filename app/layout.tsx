@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     siteName: 'Story Construction',
     images: [
       {
-        url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77',
+        url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fsc-rich-preview.png?alt=media&token=4a2c1366-2bba-4a91-83ad-197dc655b8c9',
         width: 1200,
         height: 630,
         alt: 'Story Construction logo'
