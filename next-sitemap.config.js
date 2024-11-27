@@ -1,17 +1,21 @@
 const config = {
-  siteUrl: 'https://storyconstruction.vercel.app', // Replace with your site's URL
+  siteUrl: 'https://storyconstruction.vercel.app',
   generateRobotsTxt: true, // Generate robots.txt
   sitemapSize: 7000,
   changefreq: 'daily',
   priority: 0.7,
   additionalPaths: async () => {
-    return [
-      '/', // Home page
-      '/who-we-are', // About page
-      '/services', // Services page
-      '/our-work', // Portfolio / Work page
-      '/contact-us' // Contact page
-    ]
+    return ['/', '/who-we-are', '/services', '/our-work', '/contact-us']
+  },
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/search?q=']
+      }
+    ],
+    additionalSitemaps: ['https://storyconstruction.vercel.app/sitemap.xml']
   }
 }
 
