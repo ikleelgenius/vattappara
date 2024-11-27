@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /search?q=
+
+# Host
+Host: https://storyconstruction.vercel.app
+
+# Sitemaps
+Sitemap: https://storyconstruction.vercel.app/sitemap.xml
