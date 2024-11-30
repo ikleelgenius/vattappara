@@ -104,6 +104,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta property="fb:app_id" content="564568406325241" />
+      </head>
       <body className={`antialiased`}>
         <PageWrapper>{children}</PageWrapper>
       </body>
