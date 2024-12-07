@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     title: 'Story Construction',
     description:
       'Quality construction services from a team you can trust. Building lasting structures with precision and care.',
-    url: 'https://storyconstruction.vercel.app/',
+    url: 'https://storyconstruction.info',
     siteName: 'Story Construction',
     images: [
       {
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     capable: true
   },
   alternates: {
-    canonical: 'https://storyconstruction.vercel.app'
+    canonical: 'https://storyconstruction.info'
   },
   other: {
     'apple-mobile-web-app-capable': 'yes', // Add this for legacy support
