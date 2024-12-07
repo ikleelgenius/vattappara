@@ -5,7 +5,7 @@ import './fonts.css'
 import PageWrapper from './page-wrapper'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://storyconstruction.vercel.app'),
+  metadataBase: new URL('https://storyconstruction.info'),
   title: 'Story Construction',
   description:
     'Story Construction offers quality craftsmanship and reliable project management. Building your vision with integrity and expertise.',

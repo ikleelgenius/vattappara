@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Who We Are | Story Construction',
     description: 'Meet the team behind Story Construction and discover our expertise.',
-    url: 'https://storyconstruction.vercel.app/who-we-are',
+    url: 'https://storyconstruction.info/who-we-are',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77',

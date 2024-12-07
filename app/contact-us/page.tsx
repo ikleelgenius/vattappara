@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Contact Us | Story Construction',
     description: 'Reach out to Story Construction for your next construction project.',
-    url: 'https://storyconstruction.vercel.app/contact-us',
+    url: 'https://storyconstruction.info/contact-us',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77',

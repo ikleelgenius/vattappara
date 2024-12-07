@@ -1,5 +1,5 @@
 const config = {
-  siteUrl: 'https://storyconstruction.vercel.app',
+  siteUrl: 'https://storyconstruction.info',
   generateRobotsTxt: true, // Generate robots.txt
   sitemapSize: 7000,
   changefreq: 'daily',
@@ -15,7 +15,7 @@ const config = {
         disallow: ['/search?q=']
       }
     ],
-    additionalSitemaps: ['https://storyconstruction.vercel.app/sitemap.xml']
+    additionalSitemaps: ['https://storyconstruction.info/sitemap.xml']
   }
 }
 

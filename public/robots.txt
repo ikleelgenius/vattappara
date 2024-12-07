@@ -4,7 +4,7 @@ Allow: /
 Disallow: /search?q=
 
 # Host
-Host: https://storyconstruction.vercel.app
+Host: https://storyconstruction.info
 
 # Sitemaps
-Sitemap: https://storyconstruction.vercel.app/sitemap.xml
+Sitemap: https://storyconstruction.info/sitemap.xml
