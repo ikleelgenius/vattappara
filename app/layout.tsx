@@ -66,6 +66,14 @@ export const metadata: Metadata = {
         alt: 'Story Construction logo'
       }
     ],
+    videos: [
+      {
+        url: 'https://www.storyconstruction.info/videos/banner.mp4',
+        width: 1280,
+        height: 720,
+        type: 'video/mp4'
+      }
+    ],
     locale: 'en_US',
     type: 'website'
   },
