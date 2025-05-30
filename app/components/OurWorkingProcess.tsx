@@ -16,25 +16,25 @@ const ourWorkingProcess: OurWorkingProcessProps[] = [
     step: '01',
     icon: commentsIcon,
     title: 'Consult & Plan',
-    text: 'We discuss your vision and outline a personalized plan to set your project on the right track.'
+    text: 'We discuss your vision and outline a personalized plan to set your requirements on the right track.'
   },
   {
     step: '02',
     icon: draftingCompassIcon,
-    title: 'Custom Design',
-    text: 'Our designers craft a plan that balances functionality with aesthetics, down to the last detail.'
+    title: 'Budget Planning',
+    text: 'Make a plan of your budget and timeline, ensuring we align with your expectations and project needs'
   },
   {
     step: '03',
     icon: hammerIcon,
-    title: 'Precision Build',
-    text: 'Our experienced team carefully manages each phase to bring your design to life with quality at every step.'
+    title: 'Product listing',
+    text: 'Make the right choice with our expert guidance, selecting the best products for your project needs.'
   },
   {
     step: '04',
     icon: clipboardCheckIcon,
-    title: 'Final Check',
-    text: 'We conduct a final walkthrough to ensure every detail aligns with your expectations before project handover.'
+    title: 'Get Delivered',
+    text: 'Get assured to receive your products on time, with our reliable delivery service ensuring everything arrives as planned.'
   }
 ]
 
@@ -48,7 +48,7 @@ const OurWorkingProcess = () => {
             <p className="text-sky-500 font-medium text-lg">What We Do</p>
             <span className="w-10 h-[2px] bg-sky-400"></span>
           </div>
-          <h1 className="text-5xl font-semibold text-center">Quality Construction, Done Right</h1>
+          <h1 className="text-5xl font-semibold text-center">Quality Products, Trusted Brands</h1>
         </div>
         <div className="grid grid-cols-12 gap-y-12 sm:gap-12 py-32 relative">
           {ourWorkingProcess.map((obj, i) => (

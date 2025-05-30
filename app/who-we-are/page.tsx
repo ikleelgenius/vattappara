@@ -5,8 +5,8 @@ import OurWorkingProcess from '../components/OurWorkingProcess'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Who We Are | Story Construction',
-  description: 'Learn about Story Construction and our dedicated team of experts.',
+  title: 'Who We Are | Vattappara Trading',
+  description: 'We supply branded and quality construction materials to the construction industry.',
   keywords: [
     'about us',
     'our team',
@@ -14,12 +14,22 @@ export const metadata: Metadata = {
     'Story Construction',
     'team of experts',
     'construction company',
-    'construction services'
+    'construction services',
+    'building materials',
+    'construction industry',
+    'construction professionals',
+    'construction solutions',
+    'construction management',
+    'construction projects',
+    'construction team',
+    'construction expertise',
+    "construction materials supplier",
+    'construction industry leaders',
   ],
   openGraph: {
-    title: 'Who We Are | Story Construction',
-    description: 'Meet the team behind Story Construction and discover our expertise.',
-    url: 'https://storyconstruction.info/who-we-are',
+    title: 'Who We Are | vattappara trading',
+    description: 'We supply branded and quality construction materials to the construction industry.',
+    url: 'https://vattappara.com/who-we-are',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77',

@@ -4,7 +4,7 @@ Allow: /
 Disallow: /search?q=
 
 # Host
-Host: https://storyconstruction.info
+Host: https://vattappara.com
 
 # Sitemaps
-Sitemap: https://storyconstruction.info/sitemap.xml
+Sitemap: https://vattappara.com/sitemap.xml

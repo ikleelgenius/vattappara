@@ -1,15 +1,17 @@
 import { fbIcon, linkedInIcon } from '@/app/icons'
+
 import React from 'react'
 import AwesomeIcon from '../common/AwesomeIcon'
+import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 
 const socialMedia = [
   {
-    linkKey: 'https://www.facebook.com/grantstry',
+    linkKey: 'https://www.facebook.com/vattapparatrading',
     icon: fbIcon
   },
   {
-    linkKey: 'https://www.linkedin.com/in/grant-story-95176841',
-    icon: linkedInIcon
+    linkKey: 'https://www.instagram.com/vattapparatrading/',
+    icon: faInstagram
   }
 ]
 

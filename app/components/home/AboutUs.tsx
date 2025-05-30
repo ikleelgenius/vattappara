@@ -13,23 +13,23 @@ interface companyHightlightsProps {
 
 export const companyHighlights: companyHightlightsProps[] = [
   {
-    title: 'U.S. Certified Contractors',
-    text: 'At our North Shore construction company, we recognize the importance of creating spaces that meet the unique needs of our community. We are committed to delivering buildings that not only serve their purpose but also enhance the organizations and individuals who use them.',
+    title: 'Authorised and Certified',
+    text: 'We are Authorised and Certified by leading construction material suppliers, ensuring that our products meet the highest standards of quality and safety',
     icon: certificateIcon
   },
   {
-    title: 'Community-Focused Construction',
-    text: 'We understand the challenges that come with developing high-quality environments that are both functional and efficient. Our experience allows us to navigate these challenges while ensuring that our projects contribute positively to the community.',
+    title: 'First in the Market',
+    text: 'We are more focused to bring the latest and most innovative materials first to the market',
     icon: peopleGroupIcon
   },
   {
     title: 'Commitment to Quality',
-    text: 'Our dedication extends beyond individual projects; we aim to improve the quality of life for everyone in our area. By prioritizing sustainable practices and local involvement, we strive to make a lasting impact in the communities we serve.',
+    text: 'We value our customers and make sure the products we supply will last as much our relation with the customers',
     icon: thumbsUpIcon
   },
   {
-    title: 'Expert Craftsmanship',
-    text: 'With years of hands-on experience, our skilled team delivers exceptional workmanship on every project. We take pride in our attention to detail and strive to exceed expectations with each build.',
+    title: 'Expert Materials Handling',
+    text: 'With years of hands-on experience, our skilled team delivers exceptional products for every project right to match  your need and time',
     icon: hammerIcon
   }
 ]
@@ -88,11 +88,11 @@ const AboutUs = () => {
                 <p className="text-sky-500 font-medium">About Us</p>
               </div>
               <h1 className="text-5xl font-semibold text-center xl:text-left">
-                Where Quality Meets Local Expertise
+                Where Quality Meets Years of Experience
               </h1>
               <p className="text-17 text-[#6a6a6a] text-center xl:text-left">
-                Proudly serving Boston with skilled craftsmanship and a commitment to excellence.
-                Constructing reliable solutions for your unique needs.
+                we are in the field of construction material supply for more than 20 years, providing top-notch quality and 
+                value materials to our clients. Our Experience is blended with the history of Evolving construction industry and Standards
               </p>
 
               <div className="grid grid-cols-12 gap-4">

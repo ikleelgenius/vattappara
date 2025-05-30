@@ -1,5 +1,5 @@
 {
-  "name": "storyconstruction",
+  "name": "vattappara",
   "version": "0.3.3",
   "private": true,
   "type": "module",
@@ -22,6 +22,7 @@
     "ol": "^10.2.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-fast-marquee": "^1.6.5",
     "react-redux": "^9.1.2"
   },
   "devDependencies": {

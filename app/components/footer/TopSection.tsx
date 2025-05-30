@@ -15,9 +15,7 @@ const TopSection = () => {
         <div className="col-span-12 md:col-span-6 lg:col-span-3">
           <h5 className="text-[#eee] uppercase text-lg mb-4 font-bold">About Company</h5>
           <p className="text-[#999] text-17">
-            Story Construction works with clients on Boston’s North Shore, focusing on homeowners
-            who value quality, attention to detail, and a seamless, personalized experience from
-            start to finish.
+            Supplying Branded and Quality Construction Materials to the Construction Industry
           </p>
         </div>
         <div className="col-span-12 md:col-span-6 lg:col-span-3 flex flex-col">
@@ -39,20 +37,20 @@ const TopSection = () => {
               </div>
               <div className="col-span-11">
                 <span className="text-[#999] text-17">
-                  Monday - Friday&nbsp;&nbsp;&nbsp;9am to 5pm
+                  Monday - Saturday&nbsp;&nbsp;&nbsp;9am to 5pm
                 </span>
               </div>
             </div>
           </div>
         </div>
         <div className="col-span-12 md:col-span-6 lg:col-span-3 flex flex-col">
-          <h5 className="text-[#eee] uppercase text-lg mb-4 font-bold">Construction Office</h5>
+          <h5 className="text-[#eee] uppercase text-lg mb-4 font-bold">Vattappara Trading Office</h5>
           <div className="grid grid-cols-12 gap-4 mb-2">
             <div className="col-span-1">
               <AwesomeIcon icon={mapMarkerIcon} className="w-3 h-3 text-[#999]" />
             </div>
             <div className="col-span-11">
-              <span className="text-[#999] text-17">Lynn, MA 01901</span>
+              <span className="text-[#999] text-17">Edavannappara</span>
             </div>
           </div>
           <div className="grid grid-cols-12 gap-4">
@@ -60,8 +58,8 @@ const TopSection = () => {
               <AwesomeIcon icon={phoneIcon} className="w-3 h-3 text-[#999]" />
             </div>
             <div className="col-span-11">
-              <a href="tel:(781)3677809" className="text-[#999] text-17">
-                1.781.367.7809
+              <a href="tel:+91 9387889912" className="text-[#999] text-17">
+                +91 9387889912
               </a>
             </div>
           </div>

@@ -8,28 +8,28 @@ import Link from 'next/link'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Story Construction',
+  title: 'Contact Us | Vattappara.com',
   description:
-    'Get in touch with Story Construction for consultations, quotes, and project inquiries.',
+    'Get in touch with Story Vattappara traders for consultations, quotes, and project inquiries.',
   keywords: [
-    'contact Story Construction',
-    'construction consultations',
+    'contact Vattappara.com',
+    'construction materials',
     'construction quotes',
     'project inquiries',
     'contact us',
-    'construction services inquiry',
+    'construction products inquiry',
     'construction project quotes'
   ],
   openGraph: {
-    title: 'Contact Us | Story Construction',
-    description: 'Reach out to Story Construction for your next construction project.',
-    url: 'https://storyconstruction.info/contact-us',
+    title: 'Contact Us | Vattappara.com',
+    description: 'Reach out to Vattappara traders for your next construction project.',
+    url: 'https://vattappara.com/contact-us',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77',
         width: 1200,
         height: 630,
-        alt: 'Contact Story Construction'
+        alt: 'Vattappara Traders'
       }
     ]
   },
@@ -43,20 +43,20 @@ const contactUs = [
   {
     icon: locationDotIcon,
     title: 'Our Location',
-    text: 'Lynn, MA 01901',
+    text: 'Edavannappara',
     url: ''
   },
   {
     icon: envelopeIcon,
     title: 'Email Address',
-    text: 'grant.story.build@gmail.com',
-    url: 'mailto:grant.story.build@gmail.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.'
+    text: 'vattapparaonline@gmail.com',
+    url: 'mailto:vattapparaonline@gmail.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services.'
   },
   {
     icon: phoneIcon,
     title: 'Phone Number',
-    text: '(781) 367 7809',
-    url: 'tel:(781)3677809'
+    text: '+91 9387889912',
+    url: 'tel:+91 9387889912'
   }
 ]
 
@@ -91,7 +91,8 @@ const ContactUs = () => {
         </div>
       </div>
       <div className="relative w-full h-[500px]">
-        <LocationMap latitude={42.4668} longitude={-70.9495} />
+        , 
+        <LocationMap latitude={11.241827228757654} longitude={75.97658212019064} />
       </div>
     </div>
   )

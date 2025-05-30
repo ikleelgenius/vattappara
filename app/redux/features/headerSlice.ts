@@ -23,54 +23,36 @@ export interface ServicesProps {
 export const services: ServicesProps[] = [
   {
     icon: homeIcon,
-    title: 'Home Renovations',
-    text: `We transform homes with renovations that enhance style and functionality, tailored to meet each family's unique needs.`
+    title: 'Construction Materials',
+    text: `We have all type of construction materials you need, from cement and steel bars to meshes and grids, sourced from trusted brands to ensure quality and reliability.`
   },
-  {
-    icon: faBath,
-    title: 'Kitchen & Bath Remodeling',
-    text: 'Our team brings quality and attention to detail in every kitchen and bathroom remodel, creating spaces that are both beautiful and practical.'
-  },
+
   {
     icon: treeIcon,
-    title: 'Outdoor Spaces',
-    text: 'From patios to decks, we create outdoor living spaces designed for comfort and enjoyment, tailored to New England’s changing seasons.'
+    title: 'Landscaping Services',
+    text: 'We have a dedicated team for landscaping services like fencing , garden making and parking area construction, ensuring your outdoor spaces are beautiful and functional.'
   },
   {
     icon: hammerIcon,
-    title: 'Custom Carpentry',
-    text: 'From built-in shelving to custom cabinetry, we craft unique woodwork that adds beauty and function to any room.'
+    title: 'Tools & Equipment Accessories',
+    text: 'We supply blades,bits and other accessories for tools and equipment, ensuring you have the right tools for every job.'
   },
-  {
-    icon: paintRollerIcon,
-    title: 'Painting & Finishing',
-    text: 'We provide professional painting and finishing services to refresh and protect interiors and exteriors, enhancing the look and longevity of your space.'
-  },
+ 
   {
     icon: hardHatIcon,
     title: 'Roofing & Siding',
-    text: 'Our durable roofing and siding services ensure homes are well-protected from New England’s elements with quality materials and expert installation.'
+    text: 'Our durable roofing and siding products ensure homes and buildings are well-protected from weather and sunlight'
   },
   {
     icon: doorOpenIcon,
-    title: 'Door & Window Installation',
-    text: 'We install energy-efficient doors and windows that improve security, insulation, and aesthetics for every home.'
+    title: 'Steel Doors & Windows ',
+    text: 'We have a wide range of steel doors and windows that provide security, durability, and aesthetic appeal for residential and commercial properties.'
   },
   {
     icon: waterIcon,
     title: 'Waterproofing & Insulation',
     text: 'Our waterproofing and insulation solutions help protect your home from moisture, drafts, and temperature fluctuations year-round.'
   },
-  {
-    icon: plugIcon,
-    title: 'Electrical Services',
-    text: 'From lighting installations to full electrical upgrades, our certified team ensures safe and efficient electrical systems.'
-  },
-  {
-    icon: toiletIcon,
-    title: 'Plumbing Services',
-    text: 'We provide reliable plumbing solutions for new installations, repairs, and upgrades to keep water flowing smoothly.'
-  }
 ]
 
 export interface HeaderStatePayload {

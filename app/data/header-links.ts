@@ -12,14 +12,14 @@ const headerLinks = (path: string): HeaderLinkProps[] => [
     active: path === '/who-we-are'
   },
   {
-    textKey: 'Services',
-    linkKey: '/services',
-    active: path === '/services'
+    textKey: 'Products',
+    linkKey: '/products',
+    active: path === '/products'
   },
   {
-    textKey: 'Our Work',
-    linkKey: '/our-work',
-    active: path === '/our-work'
+    textKey: 'Fullfilments',
+    linkKey: '/fullfilments',
+    active: path === '/fullfilments'
   },
   {
     textKey: 'Contact Us',

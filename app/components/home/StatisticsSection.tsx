@@ -1,27 +1,29 @@
 import { clockIcon, plusIcon, smileIcon, tasksIcon } from '@/app/icons'
+
 import React from 'react'
 import Picture from '../common/Picture'
 import AwesomeIcon from '../common/AwesomeIcon'
 import Counter from '../common/Counter'
+import { faHammer } from '@fortawesome/free-solid-svg-icons'
 
 const statisticsData = [
   {
     id: 1,
     icon: tasksIcon,
-    title: 'Projects Completed',
-    value: 300
+    title: 'Projects Fullfilled',
+    value: 100
   },
   {
     id: 2,
     icon: smileIcon,
     title: 'Happy Clients',
-    value: 100
+    value: 10000
   },
   {
     id: 3,
     icon: clockIcon,
     title: 'Years in Business',
-    value: 25
+    value: 23
   }
 ]
 
@@ -39,9 +41,9 @@ const StatisticsSection = () => {
         </div>
 
         <div className="bg-black/90 absolute px-3 h-full top-0 left-1/2 -translate-x-1/2 flex-col w-full flex justify-center">
-          <div className="max-w-screen-xl mx-auto w-full relative z-40 grid grid-cols-12 gap-y-6">
+          <div className="max-w-screen-xl mx-auto w-full relative z-40 grid grid-cols-12 gap-y-4">
             {statisticsData.map((obj, i) => (
-              <div key={i} className="col-span-12 md:col-span-4 flex items-center gap-x-4">
+              <div key={i} className="col-span-12 md:col-span-4 flex items-center gap-x-2">
                 <div className="w-20 h-20 rounded-full bg-white flex items-center justify-center relative z-10">
                   <AwesomeIcon icon={obj.icon} className="w-7 h-7 text-sky-500" />
                 </div>

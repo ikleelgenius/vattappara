@@ -6,6 +6,7 @@ import Video from '../common/Video'
 import Link from 'next/link'
 
 const HomePageBanner = () => {
+  
   const { videoRef } = useVideo()
 
   return (
@@ -19,14 +20,13 @@ const HomePageBanner = () => {
             <div className="slide-left text-white">
               <div className="py-4 flex flex-col">
                 <h4 className="uppercase text-2xl tracking-wide font-semibold mb-5">
-                  Let&apos;s work together
+                  Let&apos;s build it together
                 </h4>
                 <h1 className="mb-2 text-5xl sm:text-7xl uppercase font-black sm:tracking-widest max-w-screen-lg w-full">
-                  Building Legacies that Last
+                  Build With Quality and Integrity
                 </h1>
                 <h5 className="hidden sm:block text-xl font-medium max-w-lg w-full">
-                  Crafting enduring structures with quality, integrity, and a commitment to
-                  excellence
+                  Helping you build on trust and quality. We are committed to delivering exceptional construction materials that stand the test of time.
                 </h5>
               </div>
             </div>

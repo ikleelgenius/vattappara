@@ -26,7 +26,7 @@ const Header = () => {
           <div className="bg-[#13181b] mx-3 lg:mx-auto w-full lg:w-fit flex items-center justify-between">
             <div className="lg:bg-white lg:w-64 h-full flex lg:justify-center items-center rounded-br-[69px] px-3 lg:px-7">
               <Logo src="/images/logo-4.png" className="w-full h-auto hidden lg:flex" />
-              <Logo src="/images/logo-01.png" className="w-28 h-auto flex lg:hidden" />
+              <Logo src="/images/logo-1.png" className="w-28 h-auto flex lg:hidden" />
             </div>
             <AwesomeIcon
               onClick={() => {
@@ -40,13 +40,13 @@ const Header = () => {
             <div className="bg-sky-400 h-10 text-white py-2 px-6 w-full flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <AwesomeIcon icon={locationDotIcon} className="w-3 h-3" />
-                <span className="font-medium">Lynn, MA 01901</span>
+                <span className="font-medium">Edavannappara 673645</span>
               </div>
               <div className="flex items-center h-full gap-5">
                 <div className="flex items-center gap-2">
                   <AwesomeIcon icon={phoneIcon} className="w-3 h-3" />
-                  <a href="tel:(781)3677809" className="font-medium">
-                    (781) 367 7809
+                  <a href="tel:+91 9387889912" className="font-medium">
+                    +91 9387889912
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
@@ -55,7 +55,7 @@ const Header = () => {
                     href="mailto:grant.story.build@gmail.com?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services."
                     className="font-medium"
                   >
-                    grant.story.build@gmail.com
+                    vattapparaonline@gmail.com
                   </a>
                 </div>
               </div>

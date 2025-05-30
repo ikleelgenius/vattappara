@@ -5,10 +5,10 @@ import './fonts.css'
 import PageWrapper from './page-wrapper'
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://storyconstruction.info'),
-  title: 'Story Construction',
+  metadataBase: new URL('https://vattappara.com'),
+  title: 'Vattappara Traders',
   description:
-    'Story Construction offers quality craftsmanship and reliable project management. Building your vision with integrity and expertise.',
+    'Quality construction materials suppliers in Kerala',
   keywords: [
     'Story Construction',
     'construction',
@@ -53,11 +53,11 @@ export const metadata: Metadata = {
     'common mistakes in home construction projects'
   ],
   openGraph: {
-    title: 'Story Construction',
+    title: 'Vattappara Traders',
     description:
-      'Quality construction services from a team you can trust. Building lasting structures with precision and care.',
-    url: 'https://storyconstruction.info',
-    siteName: 'Story Construction',
+      'High quality branded construction materials suppliers in Kerala',
+    url: 'https://vattappara.com',
+    siteName: 'vattappara tradings',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fsc-rich-preview.png?alt=media&token=4a2c1366-2bba-4a91-83ad-197dc655b8c9',
@@ -85,14 +85,14 @@ export const metadata: Metadata = {
     'max-video-preview': -1,
     googleBot: 'index, follow'
   },
-  applicationName: 'Story Construction',
+  applicationName: 'Vattappara Traders',
   appleWebApp: {
-    title: 'Story Construction',
+    title: 'vattappara tradings',
     statusBarStyle: 'default',
     capable: true
   },
   alternates: {
-    canonical: 'https://storyconstruction.info'
+    canonical: 'https://vattappara.com',
   },
   other: {
     'apple-mobile-web-app-capable': 'yes', // Add this for legacy support

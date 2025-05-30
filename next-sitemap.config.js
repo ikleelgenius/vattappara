@@ -1,5 +1,5 @@
 const config = {
-  siteUrl: 'https://storyconstruction.info',
+  siteUrl: 'https://vattappara.com',
   generateRobotsTxt: true, // Generate robots.txt
   sitemapSize: 7000,
   changefreq: 'daily',
@@ -15,7 +15,7 @@ const config = {
         disallow: ['/search?q=']
       }
     ],
-    additionalSitemaps: ['https://storyconstruction.info/sitemap.xml']
+    additionalSitemaps: ['https://vattappara.com/sitemap.xml']
   }
 }
 

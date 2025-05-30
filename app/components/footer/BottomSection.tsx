@@ -10,7 +10,7 @@ const BottomSection = () => {
             onClick={() => window.open('https://sqysh.io', '_blank')}
             className="text-sky-400 cursor-pointer hover:text-sky-300 duration-200"
           >
-            Sqysh
+            vattappara.com
           </span>
         </p>
       </div>
