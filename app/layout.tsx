@@ -6,7 +6,7 @@ import PageWrapper from './page-wrapper'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://vattappara.com'),
-  title: 'Vattappara Traders',
+  title: 'Vattappara Trading Corporation',
   description:
     'Quality construction materials suppliers in Kerala',
   keywords: [
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     'common mistakes in home construction projects'
   ],
   openGraph: {
-    title: 'Vattappara Traders',
+    title: 'Vattappara Trading Corporation',
     description:
       'High quality branded construction materials suppliers in Kerala',
     url: 'https://vattappara.com',
@@ -85,7 +85,7 @@ export const metadata: Metadata = {
     'max-video-preview': -1,
     googleBot: 'index, follow'
   },
-  applicationName: 'Vattappara Traders',
+  applicationName: 'Vattappara Trading Corporation',
   appleWebApp: {
     title: 'vattappara tradings',
     statusBarStyle: 'default',

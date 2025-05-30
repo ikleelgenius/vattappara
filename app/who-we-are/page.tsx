@@ -5,7 +5,7 @@ import OurWorkingProcess from '../components/OurWorkingProcess'
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Who We Are | Vattappara Trading',
+  title: 'Who We Are | Vattappara Trading Corporation',
   description: 'We supply branded and quality construction materials to the construction industry.',
   keywords: [
     'about us',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     'construction industry leaders',
   ],
   openGraph: {
-    title: 'Who We Are | vattappara trading',
+    title: 'Who We Are | vattappara trading Corporation',
     description: 'We supply branded and quality construction materials to the construction industry.',
     url: 'https://vattappara.com/who-we-are',
     images: [

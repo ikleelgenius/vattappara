@@ -10,7 +10,7 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: 'Contact Us | Vattappara.com',
   description:
-    'Get in touch with Story Vattappara traders for consultations, quotes, and project inquiries.',
+    'Get in touch with Story Vattappara trading Corporation for consultations, quotes, and project inquiries.',
   keywords: [
     'contact Vattappara.com',
     'construction materials',
@@ -22,14 +22,14 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     title: 'Contact Us | Vattappara.com',
-    description: 'Reach out to Vattappara traders for your next construction project.',
+    description: 'Reach out to Vattappara trading Corporation for your next construction project.',
     url: 'https://vattappara.com/contact-us',
     images: [
       {
         url: 'https://firebasestorage.googleapis.com/v0/b/devon-hunt-nextjs.appspot.com/o/images%2Fstory-logo.png?alt=media&token=f3684c62-7df3-49cf-8bc3-6c8c7364ad77',
         width: 1200,
         height: 630,
-        alt: 'Vattappara Traders'
+        alt: 'Vattappara Trading Corporation'
       }
     ]
   },
